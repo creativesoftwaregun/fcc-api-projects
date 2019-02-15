@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{title}}</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	
+		<style>
+			.urlCard  {  width: 80%; }	 
+		</style>
+
+  </head>
+  
+  <body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1 class="mt-5">{{title}}</h1>
+			</div>
+		</div>
+		 
+		<div class="d-flex flex-row justify-content-center">
+			<div class="card d-block-flex urlCard">
+				<div class="card-body">
+					<a class="btn btn-secondary" href="/api/timestamp" role="button">timestamp</a>
+					<a class="btn btn-secondary" href="/api/whoami" role="button">whoami</a>
+					<a class="btn btn-secondary" href="/api/shorturl/new" role="button">url-shortener</a>
+					<a class="btn btn-secondary" href="/exercisetracker" role="button">exercise-tracker</a>
+				</div>
+			</div>	
+		</div>
+		
+	</div>
+		
+	<script src="/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
